@@ -1,12 +1,12 @@
 require "pry"
-def my_each (array) do |item|
+def my_each (array)
   counter = 0
   while counter <= array.length
     # array[counter]
-    item
+    yield
     # binding.pry
     counter += 1
-  end
+  # end
   end
   array
 end
