@@ -3,6 +3,6 @@ def my_each (array)
   while counter < array.length do
     array[counter]
     counter += 1
-  end
+  # end
   end
 end
