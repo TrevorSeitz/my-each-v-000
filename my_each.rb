@@ -1,7 +1,7 @@
 require "pry"
 def my_each (array)
   counter = 0
-  while counter <= array.length
+  while counter < array.length
     # array[counter]
     yield array(counter)
     # binding.pry
