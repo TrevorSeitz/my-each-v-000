@@ -6,7 +6,7 @@ def my_each (array) do |item|
     item
     # binding.pry
     counter += 1
-  # end
+  end
   end
   array
 end
